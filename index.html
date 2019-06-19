@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mobile</title>
+</head>
+<body>
+<script src="Mobile.js"></script>
+<script>
+    let nokia = new Mobile(50,true);
+    let iphone = new Mobile(100,true);
+    nokia.composeMessage("Hello");
+    nokia.sentMessage(iphone);
+    iphone.inbox();
+</script>
+</body>
+</html>
